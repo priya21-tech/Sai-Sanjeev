@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://sreesanjeeb.in/sitemap.xml
+Sitemap: https://saisanjeeb.in/sitemap.xml
