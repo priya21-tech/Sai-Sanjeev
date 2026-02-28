@@ -26,13 +26,8 @@ const PricingSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="card-spiritual glow-gold max-w-md mx-auto text-center"
         >
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <IndianRupee size={28} className="text-gold" />
-            <span className="font-display text-4xl gradient-gold-text">300</span>
-          </div>
-          <p className="font-body text-sm uppercase tracking-[0.2em] text-muted-foreground mb-6">Suggested Minimum</p>
           <p className="font-body text-foreground/80 leading-relaxed italic">
-            "Spiritual guidance is offered with devotion. You may contribute as per your capacity. Suggested minimum: ₹300."
+            "I do not charge a fixed fee, but I request you to offer a respectful amount for the time, effort, and guidance."
           </p>
         </motion.div>
       </div>

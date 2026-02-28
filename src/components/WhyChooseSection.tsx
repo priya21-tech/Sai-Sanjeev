@@ -3,12 +3,12 @@ import { useRef } from "react";
 import { CheckCircle2 } from "lucide-react";
 
 const reasons = [
-  "21+ years of trusted experience",
-  "Online + In-person consultations",
+  "21+ years of devotion to Maa Aparajita",
+  "Daily puja and havan rituals at home temple",
+  "Divine blessings channeled through astrology",
+  "Spiritual remedies guided by goddess's wisdom",
   "Accurate horoscope & dosha analysis",
-  "Spiritual remedies and guidance",
-  "Gemstone and muhurat support",
-  "Friendly and confidential",
+  "Personalized guidance with compassionate care",
 ];
 
 const WhyChooseSection = () => {
@@ -26,7 +26,7 @@ const WhyChooseSection = () => {
         >
           <p className="font-body text-sm uppercase tracking-[0.3em] text-gold mb-3">Why Choose</p>
           <h2 className="font-display text-3xl sm:text-4xl tracking-wide">
-            Why Trust <span className="gradient-gold-text">Sree Sanjeev</span>
+            Your Trusted Guide in <span className="gradient-gold-text">Vedic Astrology</span>
           </h2>
         </motion.div>
 

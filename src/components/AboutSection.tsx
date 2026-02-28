@@ -5,10 +5,10 @@ import { Star, Eye, Heart, Sparkles } from "lucide-react";
 import sanjeevPhoto from "@/assets/sanjeev-photo-new.jpeg";
 
 const highlights = [
-  { icon: Star, text: "21+ years of dedicated astrological practice" },
-  { icon: Heart, text: "Spiritual guidance rooted in Vedic traditions" },
-  { icon: Eye, text: "Covers all life areas — marriage, career, health, finance & more" },
-  { icon: Sparkles, text: "Provides actionable remedies, gemstone advice & muhurat guidance" },
+  { icon: Star, text: "21+ years of dedicated astrological practice in Kolkata" },
+  { icon: Heart, text: "Devoted follower of Devi Aparajita with daily spiritual rituals" },
+  { icon: Eye, text: "Expertise in astrology, Vastu, and spiritual guidance" },
+  { icon: Sparkles, text: "Channels divine blessings for clarity and prosperity" },
 ];
 
 const AboutSection = () => {
@@ -51,14 +51,19 @@ const AboutSection = () => {
             </div>
           </motion.div>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
+            animate={inView ? { opacity: 1, y: 0 } : {} }
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-body text-lg text-muted-foreground leading-relaxed text-center lg:text-left"
+            className="space-y-4 text-center lg:text-left"
           >
-            Sree Sanjeev is a professional astrologer with over two decades of experience helping individuals find clarity amidst life's uncertainties. His approach blends traditional Vedic wisdom with practical remedies, ensuring every consultation leads to meaningful direction and peace of mind.
-          </motion.p>
+            <p className="font-body text-lg text-muted-foreground leading-relaxed">
+              Welcome to a space of divine guidance and spiritual wisdom. With over 21 years of experience as an astrologer and Vastu consultant based in Kolkata, West Bengal, I am dedicated to helping individuals find clarity, balance, and prosperity in life through astrology, Vastu, and spiritual insight.
+            </p>
+            <p className="font-body text-lg text-muted-foreground leading-relaxed">
+              As a devoted follower of Devi Aparajita, I perform daily sacred rituals, including puja and havan, at my home temple, channeling divine blessings to guide and support those who seek spiritual direction.
+            </p>
+          </motion.div>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-5">

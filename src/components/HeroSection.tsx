@@ -36,10 +36,8 @@ const HeroSection = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="font-display text-3xl sm:text-5xl lg:text-6xl leading-tight tracking-wide mb-6"
             >
-              Guidance Through{" "}
-              <span className="gradient-gold-text">Astrology</span>,{" "}
-              <span className="gradient-gold-text">Vastu</span> &{" "}
-              <span className="gradient-gold-text">Spiritual Remedies</span>
+              Divine Guidance Through{" "}
+              <span className="gradient-gold-text">Maa Aparajita</span>{"'s"} Blessings
             </motion.h1>
 
             <motion.p
@@ -48,7 +46,7 @@ const HeroSection = () => {
               transition={{ delay: 0.8, duration: 0.8 }}
               className="font-body text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed"
             >
-              With over 21 years of experience, Sree Sanjeev offers trusted astrology consultation — both online and in-person — to help you navigate life's challenges with clarity.
+              With over 21 years of devotion to Maa Aparajita, Sree Sanjeev channels divine blessings to provide trusted astrological guidance and spiritual remedies for life's challenges.
             </motion.p>
 
             <motion.div
